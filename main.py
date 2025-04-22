@@ -19,7 +19,7 @@ all_sum_cent = all_sum_dollar * 100
 print(f'сума круасанів: {round(count_croisant, 2)}$')
 print(f'сума cтаканчиків: {round(count_cup, 2)}$')
 print(f'сума кохфе: {round(count_coffe, 2)}$')
-print(f'загальна сума: {all_sum_dollar}$ або {all_sum_cent}¢')
+print(f'загальна сума: {all_sum_dollar}$ або {round(all_sum_cent)}¢')
 
 
 
