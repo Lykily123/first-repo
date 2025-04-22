@@ -14,7 +14,7 @@ count_coffe = quantity_coffe * price_coffe
 
 all_sum_dollar = count_croisant + count_cup + count_coffe
 
-all_sum_cent = count_croisant + count_cup + count_coffe * 100
+all_sum_cent = all_sum_dollar * 100
 
 print(f'сума круасанів: {round(count_croisant, 2)}$')
 print(f'сума cтаканчиків: {round(count_cup, 2)}$')
